@@ -8,4 +8,15 @@ class Alumno
       this.nm=nm;
       this.nombre=nombre;
    }
+   //metodos
+   public int getNm() {
+      return nm;
+   }
+   public String getNombre() {
+      return nombre;
+   }
+   //toString
+   public String toString() {
+      return "Alumno[nm="+nm+", nombre="+nombre+"]";
+   }   
 }
